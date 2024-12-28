@@ -20,14 +20,13 @@ void print(int *A, int size) {
 
 // Сортування масиву
 void sort(int *A, int size) {
-    for (int i = 0; i < size - 1; i++) {
-        for (int j = size - 1; j > i; j--) {
-            if (A[i] > A[j]) {
-                int temp = A[i];
-                A[i] = A[j];
-                A[j] = temp;
-            }
+    for (int i = 0; i < size; i++) {
+        int key = A[i];
+        int j = i - 1;
+        for (; j >= 0 && A[j] > key; j--) {
+            A[j + 1] = A[j];
         }
+        A[j + 1] = key;
     }
 }
 
