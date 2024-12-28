@@ -1,0 +1,3 @@
+D:/ItStep/C++/DECEMBER/Sort  (27.12.24)/cmake-build-debug/CMakeFiles/Sort___27_12_24_.dir
+D:/ItStep/C++/DECEMBER/Sort  (27.12.24)/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ItStep/C++/DECEMBER/Sort  (27.12.24)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
