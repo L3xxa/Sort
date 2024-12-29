@@ -53,5 +53,6 @@ int main () {
     QuickSort(A, 0, SIZE - 1);
     print(A, SIZE);
 
+    delete[] A;
     return 0;
 }
